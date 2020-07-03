@@ -65,6 +65,12 @@ nav{
     transform: translateX(100%); 
 }  
 
+#search_bar{
+    margin-top: 2.5rem; 
+    margin-bottom: 1.5rem;
+    width: 80%; 
+    padding: .5rem;
+}
 #nav-links{
     display: flex; 
     flex-direction: column; 
