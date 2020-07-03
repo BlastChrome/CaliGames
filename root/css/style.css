@@ -1,0 +1,29 @@
+*{
+    padding: 0; 
+    margin: 0; 
+    list-style: none; 
+    text-decoration: none;;
+}
+#nav_bar_container{
+    position: relative;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    background-color: lightcoral;  
+    padding: 1rem;
+}
+
+
+.lines{
+    margin: .3rem; 
+    background-color: #ffffff; 
+    width: 45px; 
+    height: 5px;
+}  
+
+nav{
+    list-style: none;
+    position: absolute; 
+    right: 0; 
+    top: 4.5rem;
+}
