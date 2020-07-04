@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="/root/css/style.css"> 
     <!-- Font from google fonts --> 
     <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@300;400;500&display=swap" rel="stylesheet">
+    <!-- fontawesome cdn --> 
+    <script src="https://kit.fontawesome.com/25b13f05a6.js"></script>
     <title>CaliGames | Home</title>
 </head>
 <body> 
@@ -19,16 +21,22 @@
                 <div class="lines"></div>
             </div>
         </div> 
-        <nav>
-
-            <ul id="nav-links">
-                <!-- TODO Finish setting up the search bar, stlying, and proper documentation -->
-                <input id="search_bar" type="text" placeholder="Search..">
-                <li><a class="nav-link" href="#">About</a></li>
-                <li><a class="nav-link" href="#">Games</a></li>
-                <li><a class="nav-link" href="#">Repair</a></li>  
+        <nav> 
+            <div id="search">
+                <div id="search_container">
+                    <input type="text" id="search_bar" name="search_bar" placeholder="Search..."> 
+                    <a href="#" id="search_btn"><i class="fa fa-2x fa-search" aria-hidden="true"></i>
+                    </a> 
+                </div>
+            </div>
+            <ul id="nav_links">
+                <!-- TODO Finish setting up the search bar, stlying, and proper documentationhamburger -->
+                <li><a class="nav_link" href="#">About</a></li>
+                <li><a class="nav_link" href="#">Games</a></li>
+                <li><a class="nav_link" href="#">Repair</a></li>  
             </ul>
         </nav>
     </header>
-</body>
+</body> 
+<script src="/root/js/app.js"></script>
 </html>
